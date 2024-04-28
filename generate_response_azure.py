@@ -72,7 +72,7 @@ async def generate_response_azure(input: InputModel):
         openai.api_type = "azure"
         openai.api_base = "https://dwspoc.openai.azure.com/"
         openai.api_version = "2023-07-01-preview"
-        openai.api_key = "bd38ee31e244408cacab3e1dd4c32221"
+        openai.api_key = "***********************"
 
         response = openai.ChatCompletion.create(
             engine="GPT4",
