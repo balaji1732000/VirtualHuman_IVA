@@ -70,7 +70,7 @@ async def generate_response_azure(input: InputModel):
 
         # Note: The openai-python library support for Azure OpenAI is in preview.
         openai.api_type = "azure"
-        openai.api_base = "https://dwspoc.openai.azure.com/"
+        openai.api_base = "***************"
         openai.api_version = "2023-07-01-preview"
         openai.api_key = "***********************"
 
